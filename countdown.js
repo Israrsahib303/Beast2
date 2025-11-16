@@ -39,6 +39,60 @@ document.addEventListener("DOMContentLoaded", () => {
             const distance = endDateTime - now;
 
             if (distance < 0) {
+                
+                // --- === MODIFIED LOGIC START === ---
+                // Check karein ke yeh refill button ka text hai
+                if (el.classList.contains('refill-button-text')) {
+                    el.innerHTML = "Refill"; // Text ko 'Refill' set karein
+                    
+                    // Parent button (jo .btn-refill hai) ko dhoondein aur enable karein
+                    const parentButton = el.closest('.btn-refill');
+                    if (parentButton) {
+                        parentButton.disabled = false;
+                    }
+                    el.classList.remove('countdown'); // Timer class hata dein
+                    el.removeAttribute('data-end-at');
+                } else {
+                    // Purana default behavior (dosre timers ke liye)
+                    el.innerHTML = "Expired";
+                    el.style.color = "#E50914"; // Brand Red
+                }
+                // --- === MODIFIED LOGIC END === ---
+
+                el.classList.add('expired-check'); // Isay dobara check na karein
+                
+            } else {
+                activeCountdowns++; // Yeh countdown abhi zinda hai
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                let output = "";
+                if (days > 0) output += `${days}d `;
+                
+                // --- MODIFICATION: Show "Wait" text for refill buttons ---
+                if (el.classList.contains('refill-button-text')) {
+                    output = `Wait ${hours}h ${minutes}m ${seconds}s`;
+                } else {
+                    output += `${hours}h ${minutes}m ${seconds}s`;
+                }
+                // --- END MODIFICATION ---
+
+                el.innerHTML = output;
+            }
+        });
+
+        // Agar koi bhi zinda countdown na bache to interval rok dein
+        if (activeCountdowns === 0) {
+            clearInterval(interval);
+        }
+    }, 1000);
+});
+            const now = new Date().getTime();
+            const distance = endDateTime - now;
+
+            if (distance < 0) {
                 el.innerHTML = "Expired";
                 el.style.color = "#E50914"; // Brand Red
                 el.classList.add('expired-check'); // Isay dobara check na karein
