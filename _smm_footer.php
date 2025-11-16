@@ -70,4 +70,40 @@
     </script>
     
 </body>
+</html>                    labels: window.smmGraphLabels, // PHP se 'D, j M' format
+                    datasets: [{
+                        label: 'PKR Spent',
+                        data: window.smmGraphValues, // PHP se [0, 0, 5.85, ...]
+                        backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                        borderColor: 'rgba(13, 110, 253, 1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4 // Line ko smooth karein
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                // 'PKR 100' likha aaye
+                                callback: function(value, index, values) {
+                                    return 'PKR ' + value;
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false // 'PKR Spent' label ko chupayein
+                        }
+                    }
+                }
+            });
+        }
+    });
+    </script>
+    
+</body>
 </html>
