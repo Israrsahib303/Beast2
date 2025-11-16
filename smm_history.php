@@ -212,15 +212,19 @@ try {
                         
                         <form action="smm_history.php" method="POST">
                             <input type="hidden" name="order_id" value="<?php echo $order['id']; ?>">
+                            
                             <button type="submit" name="action" value="refill" 
                                     class="btn-app-secondary btn-refill" 
-                                    <?php if (!$can_refill_now) echo 'disabled'; ?>
-                                    <?php if ($cooldown_active) echo 'data-cooldown-ends="' . $cooldown_ends_at . '"'; ?>>
+                                    <?php if (!$can_refill_now) echo 'disabled'; ?>>
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L20.49 15a9 9 0 0 1-14.85 3.36L3.51 9z"></path></svg>
-                                <span class="refill-button-text"><?php echo $button_text; ?></span>
+                                
+                                <span class="refill-button-text <?php if ($cooldown_active) echo 'countdown'; ?>"
+                                      <?php if ($cooldown_active) echo 'data-end-at="' . $cooldown_ends_at . '"'; ?>>
+                                    <?php echo $button_text; ?>
+                                </span>
                             </button>
-                        </form>
+                            </form>
                         
                         <form action="smm_history.php" method="POST">
                             <input type="hidden" name="order_id" value="<?php echo $order['id']; ?>">
