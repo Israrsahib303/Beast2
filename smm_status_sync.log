@@ -1,0 +1,4 @@
+SMM Status Sync Cron started at 2025-11-15 14:35:02
+CRITICAL ERROR: No pending orders with provider_order_id found to sync.
+Cron finished at 2025-11-15 14:35:02
+

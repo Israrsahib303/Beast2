@@ -1,0 +1,34 @@
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:12:02 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:20:06 Asia/Karachi] PHP Notice:  Undefined index: base_price_month in /home/israrlia/test.israrliaqat.shop/user/index.php on line 284
+[11-Nov-2025 18:27:58 Asia/Karachi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/israrlia/test.israrliaqat.shop/user/_nav.php:27) in /home/israrlia/test.israrliaqat.shop/includes/helpers.php on line 40
+[11-Nov-2025 18:28:06 Asia/Karachi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/israrlia/test.israrliaqat.shop/user/_nav.php:27) in /home/israrlia/test.israrliaqat.shop/includes/helpers.php on line 40
+[11-Nov-2025 18:28:13 Asia/Karachi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/israrlia/test.israrliaqat.shop/user/_nav.php:27) in /home/israrlia/test.israrliaqat.shop/includes/helpers.php on line 40
+[11-Nov-2025 18:49:15 Asia/Karachi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/israrlia/test.israrliaqat.shop/user/_nav.php:27) in /home/israrlia/test.israrliaqat.shop/includes/helpers.php on line 40
+[11-Nov-2025 20:55:19 Asia/Karachi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/israrlia/test.israrliaqat.shop/user/_nav.php:27) in /home/israrlia/test.israrliaqat.shop/includes/helpers.php on line 40
+[13-Nov-2025 00:11:48 Asia/Karachi] PHP Warning:  require_once(../includes/auth.php): failed to open stream: No such file or directory in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:11:48 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '../includes/auth.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:11:50 Asia/Karachi] PHP Warning:  require_once(../includes/auth.php): failed to open stream: No such file or directory in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:11:50 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '../includes/auth.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:11:58 Asia/Karachi] PHP Warning:  require_once(../includes/auth.php): failed to open stream: No such file or directory in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:11:58 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '../includes/auth.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:13:38 Asia/Karachi] PHP Warning:  require_once(../includes/auth.php): failed to open stream: No such file or directory in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:13:38 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '../includes/auth.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:13:40 Asia/Karachi] PHP Warning:  require_once(../includes/auth.php): failed to open stream: No such file or directory in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[13-Nov-2025 00:13:40 Asia/Karachi] PHP Fatal error:  require_once(): Failed opening required '../includes/auth.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/israrlia/test.israrliaqat.shop/user/smm_order.php on line 5
+[15-Nov-2025 15:36:26 UTC] PHP Parse error:  syntax error, unexpected 'DRAFT' (T_STRING) in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 65
+[15-Nov-2025 15:36:30 UTC] PHP Parse error:  syntax error, unexpected 'DRAFT' (T_STRING) in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 65
+[15-Nov-2025 15:37:26 UTC] PHP Parse error:  syntax error, unexpected 'DRAFT' (T_STRING) in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 65
+[15-Nov-2025 22:00:52 Asia/Karachi] PHP Notice:  Undefined index: last_refill_request_at in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 139
+[15-Nov-2025 22:00:58 Asia/Karachi] PHP Notice:  Undefined index: last_refill_request_at in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 139
+[15-Nov-2025 22:01:01 Asia/Karachi] PHP Notice:  Undefined index: last_refill_request_at in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 34
+[15-Nov-2025 22:01:10 Asia/Karachi] PHP Notice:  Undefined index: last_refill_request_at in /home/israrlia/test.israrliaqat.shop/user/smm_history.php on line 139
